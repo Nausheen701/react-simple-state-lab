@@ -21,11 +21,12 @@ export default class Cell extends Component {
             <div 
             className='cell' 
             style={{backgroundColor: this.state.color}}
+            // Create a click listener which, when activated, updates the state 
+            // to the following hex value: '#333'
             onClick={this.handleClick}>
 
             </div>
-            // Create a click listener which, when activated, updates the state 
-            // to the following hex value: '#333'
+            
         )
     }
 }
